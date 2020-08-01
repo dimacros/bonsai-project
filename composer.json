@@ -1,0 +1,21 @@
+{
+    "name": "dimacros/bonsai-project",
+    "description": "Prueba para backend developer",
+    "type": "project",
+    "require": {
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "kahlan/kahlan": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BonsaiProject\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BonsaiProject\\Spec\\": "spec/"
+        }
+    }
+}
